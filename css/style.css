@@ -47,7 +47,7 @@ body{
     max-width: 560px;
 }
 .code{
-    font-size: 16px;
+    font-size: 18px;
 }
 .linha{
     display: inline-block;
@@ -70,7 +70,7 @@ a:visited{
 
 @media screen and (max-width: 750px){
     body{
-        color:white;
+        color:#fff;
         background:#444444;
         max-width: 450px;
        
