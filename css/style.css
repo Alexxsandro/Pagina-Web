@@ -39,11 +39,6 @@ body{
     color: #fff;
     line-height:1.2;
 }
-/* paragrafo em neglito */
-.boldParagraph{
-    color: white;
-    font-weight: bold;
-}
 /* Listas não ordenadas */
 .unorderedList{
     color: #fff;
