@@ -3,9 +3,7 @@
 * @author: Alexsandro
 *
 * Comment
-* Usar o mesmo ID não atrapalha no CSS , já no Javascript atrapalha 
-* como a proposta é utilizar o ID ,foi criado um ID diferente para
-* cada H2
+
 */
 
 /* Estilizando body */
@@ -25,19 +23,10 @@ body{
 .paragraph{
     color: white;
 }
-/* subtitulo H2 - #primarySubtitle_h2*/
-#primarySubtitle_h2{
+/* subtitulo H2 */
+.subtitle_h2{
     color: #fff;
     line-height:1.2;
-}
-/* subtitulo H2 - #secondarySubtitle_h2*/
-#secondarySubtitle_h2{
-    color: #fff;
-}
-/* subtitulo H2 - #tertiarySubtitle_h2*/
-#tertiarySubtitle_h2{
-   color: #fff;
-   line-height:1.2;
 }
 /* paragrafo em neglito */
 .boldParagraph{
@@ -49,7 +38,7 @@ body{
     color: #fff;
 }
 /* subtitulo H3 - #primarySubtitle_h3*/
-#primarySubtitle_h3{
+.subtitle_h3{
     color: #fff;
     line-height:1.2;
 }
