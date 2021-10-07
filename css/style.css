@@ -1,0 +1,92 @@
+/*
+*
+* @author: Alexsandro
+*
+* Comment
+* Usar o mesmo ID não atrapalha no CSS , já no Javascript atrapalha 
+* como a proposta é utilizar o ID ,foi criado um ID diferente para
+* cada H2
+*/
+
+/* Estilizando body */
+body{
+    max-width:660px;
+    margin:40px auto;
+    padding:0 10px;
+    font:18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color:#444444;
+}
+/* Header */
+#mainTitle{
+    color: #fff;
+    line-height:1.2;
+}
+/* paragraph */
+.paragraph{
+    color: white;
+}
+/* subtitulo H2 - #primarySubtitle_h2*/
+#primarySubtitle_h2{
+    color: #fff;
+    line-height:1.2
+}
+/* subtitulo H2 - #secondarySubtitle_h2*/
+#secondarySubtitle_h2{
+    color: #fff;
+}
+/* subtitulo H2 - #tertiarySubtitle_h2*/
+#tertiarySubtitle_h2{
+   color: #fff;
+   line-height:1.2;
+}
+/* paragrafo em neglito */
+.boldParagraph{
+    color: white;
+    font-weight: bold;
+}
+/* Listas não ordenadas */
+.unorderedList{
+    color: #fff;
+}
+/* subtitulo H3 - #primarySubtitle_h3*/
+#primarySubtitle_h3{
+    color: #fff;
+    line-height:1.2;
+}
+.quote{
+    color: #fff;
+    max-width: 560px;
+}
+.code{
+    font-size: 16px;
+}
+.linha{
+    display: inline-block;
+    width: 13px;
+    height: 1px;
+    margin:0px 2px 4px 2px;
+    background-color: #fff;
+}
+.border_paragraph{
+    border-bottom:1px dotted #fff;
+    
+}
+a:link{
+   color:#5bf;
+}
+a:visited{
+    color:#ccf;
+}
+
+
+@media (max-width: 650px){
+    body{
+        color:white;
+        background:#444444;
+        max-width: 450px;
+       
+    }
+    .quote{
+        width: 350px;
+    }
+}
